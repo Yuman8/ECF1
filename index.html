@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HOROSCOPE-tirer 12 cartes </title>
+  <link rel="stylesheet" href="styles/reset.css"/>
+  <link rel="stylesheet" href="styles/index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <h1>HOROSCOPE</h1>
+  </header>
+
+  <main>
+    <section class="intro-section"  aria-labelledby="intro-title">
+      <h2 id="intro-title">Bienvenue sur le site HOROSCOPE</h2>
+      <p>
+        Dans le cadre de l’ECF1 consacré au développement front-end, il nous a été confié la mission de réaliser l’interface d’une application d’horoscope. Ce projet a pour objectif de mettre en valeur les compétences acquises jusqu’à présent en HTML sémantique, CSS, JavaScript, animations, dynamisme et interactions avec une API.
+        <br><br>
+        Sur cette page, un appel à une API permet de récupérer les données des 12 signes astrologiques. Lorsque vous cliquez sur le bouton « Afficher les 12 cartes », celles-ci s’affichent dynamiquement. Passez sur chaque image pour découvrir le message associé à chaque signe.
+      </p>
+
+
+      <button id="load-btn" class="button" type="button">Tirer les 12 signes</button>
+    </section>
+
+    <section id="cards-section" aria-label="Résultats de l'horoscope">
+      <div id="cards-container" class="cards-flex">
+        
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Alexandre Anselin</p>
+    <nav aria-label="Liens utiles">
+      <ul>
+        <li><a href="pages/a-propos.html">À propos</a></li>
+        <li><a href="pages/rgpd.html">RGPD</a></li>
+      </ul>
+    </nav>
+  </footer>
+
+  <script src="javascript/index.js"></script>
+</body>
+</html>

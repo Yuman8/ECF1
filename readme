@@ -1,0 +1,107 @@
+# Projet Horoscope - ECF 1 
+
+Bienvenue sur le site horoscope , un projet fait dans le contexte d'un ECF qui vise a illustrer des compétences acquise dans la partie front end !
+
+---
+
+## Déploiement 
+
+Adresse du site :
+
+Dépôt GITHUB : 
+
+--- 
+
+## Objectif 
+
+- Créer une **interface publique dynamique** avec **HTML , CSS , JS**
+- Illustrer des notions fondamentales de développement web **Front end**
+- Affichage d’un bouton « Tirer les 12 messages » permettant de déclencher l'action utilisateur
+- Appel **POST** vers une API externe (utilisation de fetch() avec un Content-Type: application/json)
+- Affichage dynamique des horoscopes pour chaque signe du zodiaque sous forme de cartes visuelles générées en **JavaScript**
+- Présence d’un **loader** visible pendant le chargement des données
+- Affichage d’un **message d’erreur** clair en cas de problème de communication avec l’API
+- Design **responsive** parfaitement fonctionnel sur mobile, tablette et ordinateur
+- **Animation** fluide au survol des cartes (effet CSS léger et esthétique)
+
+---
+ 
+## Technologies utilisées 
+
+- HTML5 <- sémantique et SEO 
+- CSS3  <- Animations et responsive design
+- JavaScript 
+- Appel API 
+- Manipulation du DOM 
+- CI/CD
+- GitHub       
+- GoogleSearchConsole <- référencement
+- Figma <- maquettage 
+- tldraw <- file de fer html
+
+---
+
+## Fonctionnalité du site 
+
+
+- Cliquer sur un bouton « Tirer les 12 messages »
+- Afficher dynamiquement les 12 messages retournés par l’API dans des cartes distinctes
+- Visualiser un loader pendant le chargement
+- Recevoir un message d’erreur si la requête échoue
+
+---
+
+
+
+## Arborescence du projet
+
+Horoscope/
+├── .github/
+│    └── workflows/
+│         └── deploy.yml
+│
+├── Images/
+│    ├── images-fonds/
+│    │    └── background-img  <- Image d'arrière plan du site
+│    └── images-zodiaque/
+│         ├── cancer.webp
+│         ├── sagittaire.webp  <- Images des signes du zodiaque
+│         ├── poisson.webp
+│         └── etc.
+│
+├── JavaScript/
+│    └── index.js  <- Affichage dynamique et appel API
+│
+├── Maquettes/
+│    ├── tablet/
+│    │    └── maquette-tab.png
+│    ├── desktop/
+│    │    └── maquette-desk.png
+│    └── smartphone/
+│         └── maquette-phone.png
+│
+├── Méthode-agile/
+│    ├── trello.png
+│    └── backlog.md
+│
+├── Pages/
+│    ├── a-propos.html  <- Page À propos
+│    └── rgpd.html      <- Page RGPD
+│
+├── styles/
+│    ├── reset.css       <- Réinitialisation des styles par défaut du navigateur
+│    ├── index.css       <- Animations et styles de la page d'accueil
+│    ├── a-propos.css    <- Style de la page À propos
+│    └── rgpd.css        <-- Style de la page RGPD
+│
+├── .htaccess           <-Fichier de configuration Apache permettant en autre de gérer la réécriture d’URL
+├── index.html          <- Page principale du site
+├── favicon.ico         <- Icône affichée dans l’onglet du navigateur
+├── README.md           <- Vous êtes ici.
+├── robots.txt          <- Fichier indiquant aux moteurs de recherche quelles pages doivent être explorés ou ignorés lors de l’indexation.
+└── sitemap.xml         <- Plan du site au format XML listant toutes les URLs importantes pour aider les moteurs de recherche
+
+
+## Réalisateur du projet 
+
+Projet réalisé par  **Alexandre ANSELIN** 
