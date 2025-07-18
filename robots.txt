@@ -1,0 +1,10 @@
+# Autoriser tous les robots à accéder à tout le site
+User-agent: *
+Allow: /
+
+# Empêcher l'accès aux fichiers sensibles (optionnel)
+Disallow: /methode-agile/
+Disallow: /javascript/
+
+# Sitemap XML pour Googlebot
+Sitemap: https://ecf1-anselin-alexandre.sidathsoeun.fr/sitemap.xml
